@@ -11,13 +11,14 @@ section {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   overflow-x: hidden;
 }
 
 section > h2 {
   letter-spacing: 5px;
+  margin-top: 60px;
 }
 #container {
   width: 90vw;
