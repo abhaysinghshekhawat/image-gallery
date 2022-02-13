@@ -30,10 +30,15 @@ body{
 
 #container > div{
     transition: all 0.7s;
+    
 }
 #container > div:hover{
     transform: translateY(-5px);
     cursor: pointer;
+}
+
+#container > div img{
+    border-radius: 20px;
 }
 
 @media screen and (max-width: 500px){
